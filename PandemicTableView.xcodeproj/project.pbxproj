@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66584D9E1B8DB93A0099DE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66584D9C1B8DB93A0099DE7E /* Main.storyboard */; };
+		66584DA01B8DB93A0099DE7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66584D9F1B8DB93A0099DE7E /* Images.xcassets */; };
+		66584DAF1B8DB93A0099DE7E /* PandemicTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DAE1B8DB93A0099DE7E /* PandemicTableViewTests.swift */; };
+		66584DB91B8DB9AF0099DE7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DB81B8DB9AF0099DE7E /* ViewController.swift */; };
+		66584DBB1B8DBA010099DE7E /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DBA1B8DBA010099DE7E /* Sizes.swift */; };
+		66584DBF1B8DBA320099DE7E /* Avalon.html in Resources */ = {isa = PBXBuildFile; fileRef = 66584DBD1B8DBA310099DE7E /* Avalon.html */; };
+		66584DC01B8DBA320099DE7E /* LifelineExtract.html in Resources */ = {isa = PBXBuildFile; fileRef = 66584DBE1B8DBA320099DE7E /* LifelineExtract.html */; };
+		66584DC71B8DBAC90099DE7E /* Electronic device beeps 02_SFXBible_ss05892.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66584DC21B8DBAC90099DE7E /* Electronic device beeps 02_SFXBible_ss05892.mp3 */; };
+		66584DC81B8DBAC90099DE7E /* EvilPiece.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66584DC31B8DBAC90099DE7E /* EvilPiece.mp3 */; };
+		66584DC91B8DBAC90099DE7E /* Sound design boom hit low and ominous 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66584DC41B8DBAC90099DE7E /* Sound design boom hit low and ominous 1.mp3 */; };
+		66584DCA1B8DBAC90099DE7E /* Sound design data readout electronic beeps_BLASTWAVEFX_06197.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66584DC51B8DBAC90099DE7E /* Sound design data readout electronic beeps_BLASTWAVEFX_06197.mp3 */; };
+		66584DCB1B8DBAC90099DE7E /* Walkie talkie or two-way talk beep-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66584DC61B8DBAC90099DE7E /* Walkie talkie or two-way talk beep-1.mp3 */; };
+		66584DCD1B8DBADC0099DE7E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DCC1B8DBADC0099DE7E /* Colors.swift */; };
+		66584DCF1B8DBB1C0099DE7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DCE1B8DBB1C0099DE7E /* AppDelegate.swift */; };
+		66584DD11B8DBB3A0099DE7E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DD01B8DBB3A0099DE7E /* DataModel.swift */; };
+		66584DD31B8DBB450099DE7E /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DD21B8DBB450099DE7E /* Music.swift */; };
+		66584DD51B8DBB520099DE7E /* RestoringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DD41B8DBB520099DE7E /* RestoringData.swift */; };
+		66584DD81B8DBB600099DE7E /* TableViewRequiredMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DD61B8DBB600099DE7E /* TableViewRequiredMethods.swift */; };
+		66584DD91B8DBB600099DE7E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DD71B8DBB600099DE7E /* Utilities.swift */; };
+		66584DDB1B8E05010099DE7E /* Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66584DDA1B8E05010099DE7E /* Scrolling.swift */; };
+		66584DDD1B8E08420099DE7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66584DDC1B8E08420099DE7E /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66584DA91B8DB93A0099DE7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66584D8B1B8DB93A0099DE7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66584D921B8DB93A0099DE7E;
+			remoteInfo = PandemicTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66584D931B8DB93A0099DE7E /* PandemicTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandemicTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66584D971B8DB93A0099DE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66584D9D1B8DB93A0099DE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66584D9F1B8DB93A0099DE7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66584DA81B8DB93A0099DE7E /* PandemicTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandemicTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66584DAD1B8DB93A0099DE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66584DAE1B8DB93A0099DE7E /* PandemicTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandemicTableViewTests.swift; sourceTree = "<group>"; };
+		66584DB81B8DB9AF0099DE7E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66584DBA1B8DBA010099DE7E /* Sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		66584DBD1B8DBA310099DE7E /* Avalon.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Avalon.html; sourceTree = "<group>"; };
+		66584DBE1B8DBA320099DE7E /* LifelineExtract.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LifelineExtract.html; sourceTree = "<group>"; };
+		66584DC21B8DBAC90099DE7E /* Electronic device beeps 02_SFXBible_ss05892.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Electronic device beeps 02_SFXBible_ss05892.mp3"; sourceTree = "<group>"; };
+		66584DC31B8DBAC90099DE7E /* EvilPiece.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EvilPiece.mp3; sourceTree = "<group>"; };
+		66584DC41B8DBAC90099DE7E /* Sound design boom hit low and ominous 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sound design boom hit low and ominous 1.mp3"; sourceTree = "<group>"; };
+		66584DC51B8DBAC90099DE7E /* Sound design data readout electronic beeps_BLASTWAVEFX_06197.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sound design data readout electronic beeps_BLASTWAVEFX_06197.mp3"; sourceTree = "<group>"; };
+		66584DC61B8DBAC90099DE7E /* Walkie talkie or two-way talk beep-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Walkie talkie or two-way talk beep-1.mp3"; sourceTree = "<group>"; };
+		66584DCC1B8DBADC0099DE7E /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		66584DCE1B8DBB1C0099DE7E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66584DD01B8DBB3A0099DE7E /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		66584DD21B8DBB450099DE7E /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		66584DD41B8DBB520099DE7E /* RestoringData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoringData.swift; sourceTree = "<group>"; };
+		66584DD61B8DBB600099DE7E /* TableViewRequiredMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewRequiredMethods.swift; sourceTree = "<group>"; };
+		66584DD71B8DBB600099DE7E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		66584DDA1B8E05010099DE7E /* Scrolling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrolling.swift; sourceTree = "<group>"; };
+		66584DDC1B8E08420099DE7E /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66584D901B8DB93A0099DE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66584DA51B8DB93A0099DE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66584D8A1B8DB93A0099DE7E = {
+			isa = PBXGroup;
+			children = (
+				66584D951B8DB93A0099DE7E /* PandemicTableView */,
+				66584DAB1B8DB93A0099DE7E /* PandemicTableViewTests */,
+				66584D941B8DB93A0099DE7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66584D941B8DB93A0099DE7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66584D931B8DB93A0099DE7E /* PandemicTableView.app */,
+				66584DA81B8DB93A0099DE7E /* PandemicTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66584D951B8DB93A0099DE7E /* PandemicTableView */ = {
+			isa = PBXGroup;
+			children = (
+				66584DCE1B8DBB1C0099DE7E /* AppDelegate.swift */,
+				66584DB81B8DB9AF0099DE7E /* ViewController.swift */,
+				66584DD61B8DBB600099DE7E /* TableViewRequiredMethods.swift */,
+				66584DD71B8DBB600099DE7E /* Utilities.swift */,
+				66584DDA1B8E05010099DE7E /* Scrolling.swift */,
+				66584DBA1B8DBA010099DE7E /* Sizes.swift */,
+				66584DCC1B8DBADC0099DE7E /* Colors.swift */,
+				66584DD01B8DBB3A0099DE7E /* DataModel.swift */,
+				66584DD21B8DBB450099DE7E /* Music.swift */,
+				66584DD41B8DBB520099DE7E /* RestoringData.swift */,
+				66584D9C1B8DB93A0099DE7E /* Main.storyboard */,
+				66584DDC1B8E08420099DE7E /* LaunchScreen.xib */,
+				66584D9F1B8DB93A0099DE7E /* Images.xcassets */,
+				66584DC11B8DBA3A0099DE7E /* Music */,
+				66584DBC1B8DBA0E0099DE7E /* Stories */,
+				66584D961B8DB93A0099DE7E /* Supporting Files */,
+			);
+			path = PandemicTableView;
+			sourceTree = "<group>";
+		};
+		66584D961B8DB93A0099DE7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66584D971B8DB93A0099DE7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66584DAB1B8DB93A0099DE7E /* PandemicTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				66584DAE1B8DB93A0099DE7E /* PandemicTableViewTests.swift */,
+				66584DAC1B8DB93A0099DE7E /* Supporting Files */,
+			);
+			path = PandemicTableViewTests;
+			sourceTree = "<group>";
+		};
+		66584DAC1B8DB93A0099DE7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66584DAD1B8DB93A0099DE7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66584DBC1B8DBA0E0099DE7E /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				66584DBD1B8DBA310099DE7E /* Avalon.html */,
+				66584DBE1B8DBA320099DE7E /* LifelineExtract.html */,
+			);
+			name = Stories;
+			sourceTree = "<group>";
+		};
+		66584DC11B8DBA3A0099DE7E /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				66584DC21B8DBAC90099DE7E /* Electronic device beeps 02_SFXBible_ss05892.mp3 */,
+				66584DC31B8DBAC90099DE7E /* EvilPiece.mp3 */,
+				66584DC41B8DBAC90099DE7E /* Sound design boom hit low and ominous 1.mp3 */,
+				66584DC51B8DBAC90099DE7E /* Sound design data readout electronic beeps_BLASTWAVEFX_06197.mp3 */,
+				66584DC61B8DBAC90099DE7E /* Walkie talkie or two-way talk beep-1.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66584D921B8DB93A0099DE7E /* PandemicTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66584DB21B8DB93A0099DE7E /* Build configuration list for PBXNativeTarget "PandemicTableView" */;
+			buildPhases = (
+				66584D8F1B8DB93A0099DE7E /* Sources */,
+				66584D901B8DB93A0099DE7E /* Frameworks */,
+				66584D911B8DB93A0099DE7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandemicTableView;
+			productName = PandemicTableView;
+			productReference = 66584D931B8DB93A0099DE7E /* PandemicTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66584DA71B8DB93A0099DE7E /* PandemicTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66584DB51B8DB93A0099DE7E /* Build configuration list for PBXNativeTarget "PandemicTableViewTests" */;
+			buildPhases = (
+				66584DA41B8DB93A0099DE7E /* Sources */,
+				66584DA51B8DB93A0099DE7E /* Frameworks */,
+				66584DA61B8DB93A0099DE7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66584DAA1B8DB93A0099DE7E /* PBXTargetDependency */,
+			);
+			name = PandemicTableViewTests;
+			productName = PandemicTableViewTests;
+			productReference = 66584DA81B8DB93A0099DE7E /* PandemicTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66584D8B1B8DB93A0099DE7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yakov;
+				TargetAttributes = {
+					66584D921B8DB93A0099DE7E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					66584DA71B8DB93A0099DE7E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 66584D921B8DB93A0099DE7E;
+					};
+				};
+			};
+			buildConfigurationList = 66584D8E1B8DB93A0099DE7E /* Build configuration list for PBXProject "PandemicTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66584D8A1B8DB93A0099DE7E;
+			productRefGroup = 66584D941B8DB93A0099DE7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66584D921B8DB93A0099DE7E /* PandemicTableView */,
+				66584DA71B8DB93A0099DE7E /* PandemicTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66584D911B8DB93A0099DE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66584DDD1B8E08420099DE7E /* LaunchScreen.xib in Resources */,
+				66584D9E1B8DB93A0099DE7E /* Main.storyboard in Resources */,
+				66584DC81B8DBAC90099DE7E /* EvilPiece.mp3 in Resources */,
+				66584DC01B8DBA320099DE7E /* LifelineExtract.html in Resources */,
+				66584DC71B8DBAC90099DE7E /* Electronic device beeps 02_SFXBible_ss05892.mp3 in Resources */,
+				66584DA01B8DB93A0099DE7E /* Images.xcassets in Resources */,
+				66584DCB1B8DBAC90099DE7E /* Walkie talkie or two-way talk beep-1.mp3 in Resources */,
+				66584DC91B8DBAC90099DE7E /* Sound design boom hit low and ominous 1.mp3 in Resources */,
+				66584DCA1B8DBAC90099DE7E /* Sound design data readout electronic beeps_BLASTWAVEFX_06197.mp3 in Resources */,
+				66584DBF1B8DBA320099DE7E /* Avalon.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66584DA61B8DB93A0099DE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66584D8F1B8DB93A0099DE7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66584DD51B8DBB520099DE7E /* RestoringData.swift in Sources */,
+				66584DD81B8DBB600099DE7E /* TableViewRequiredMethods.swift in Sources */,
+				66584DD11B8DBB3A0099DE7E /* DataModel.swift in Sources */,
+				66584DCF1B8DBB1C0099DE7E /* AppDelegate.swift in Sources */,
+				66584DBB1B8DBA010099DE7E /* Sizes.swift in Sources */,
+				66584DDB1B8E05010099DE7E /* Scrolling.swift in Sources */,
+				66584DCD1B8DBADC0099DE7E /* Colors.swift in Sources */,
+				66584DD91B8DBB600099DE7E /* Utilities.swift in Sources */,
+				66584DB91B8DB9AF0099DE7E /* ViewController.swift in Sources */,
+				66584DD31B8DBB450099DE7E /* Music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66584DA41B8DB93A0099DE7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66584DAF1B8DB93A0099DE7E /* PandemicTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66584DAA1B8DB93A0099DE7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66584D921B8DB93A0099DE7E /* PandemicTableView */;
+			targetProxy = 66584DA91B8DB93A0099DE7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66584D9C1B8DB93A0099DE7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66584D9D1B8DB93A0099DE7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66584DB01B8DB93A0099DE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66584DB11B8DB93A0099DE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66584DB31B8DB93A0099DE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PandemicTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66584DB41B8DB93A0099DE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PandemicTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66584DB61B8DB93A0099DE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PandemicTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandemicTableView.app/PandemicTableView";
+			};
+			name = Debug;
+		};
+		66584DB71B8DB93B0099DE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PandemicTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandemicTableView.app/PandemicTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66584D8E1B8DB93A0099DE7E /* Build configuration list for PBXProject "PandemicTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66584DB01B8DB93A0099DE7E /* Debug */,
+				66584DB11B8DB93A0099DE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66584DB21B8DB93A0099DE7E /* Build configuration list for PBXNativeTarget "PandemicTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66584DB31B8DB93A0099DE7E /* Debug */,
+				66584DB41B8DB93A0099DE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66584DB51B8DB93A0099DE7E /* Build configuration list for PBXNativeTarget "PandemicTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66584DB61B8DB93A0099DE7E /* Debug */,
+				66584DB71B8DB93B0099DE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66584D8B1B8DB93A0099DE7E /* Project object */;
+}
